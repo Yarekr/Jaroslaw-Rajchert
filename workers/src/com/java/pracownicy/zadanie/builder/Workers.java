@@ -168,15 +168,17 @@ public class Workers {
 		buffer.append(System.lineSeparator());
 		buffer.append("Nazwisko: " + this.getNazwisko());
 		buffer.append(System.lineSeparator());
-		buffer.append("Miejsce pracy:" + this.getMiasto());
+		buffer.append("Miejsce pracy: " + this.getMiasto());
 		buffer.append(System.lineSeparator());
 		buffer.append("Stanowisko: " + this.getStanowisko());
 		buffer.append(System.lineSeparator());
-		buffer.append("Zarobki: " + this.getZarobki());
+		buffer.append("Zarobki: " + this.getZarobki()+" PLN");
 		buffer.append(System.lineSeparator());
 		buffer.append("Jêzyk programowania: " + this.getJezyk());
 		buffer.append(System.lineSeparator());
 		buffer.append("Koszt uzyskania przychodu: " + this.getAutorskie());
+		buffer.append(System.lineSeparator());
+		buffer.append("Benefit: " + this.getBenefit());
 		buffer.append(System.lineSeparator());
 		return buffer.toString();
 	}

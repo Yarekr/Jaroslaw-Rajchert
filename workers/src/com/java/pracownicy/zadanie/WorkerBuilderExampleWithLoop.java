@@ -46,7 +46,8 @@ public class WorkerBuilderExampleWithLoop {
 						.stanowisko(valueWorker.length > 3  ? valueWorker[3] : "")//
 						.zarobki(valueWorker.length > 4 ? Integer.valueOf(valueWorker[4]) : 0)//
 						.jezyk(valueWorker.length > 5 ? valueWorker[5] : "")//
-						.autorskie(valueWorker.length > 6  ? valueWorker[6] : "")//
+						.autorskie(valueWorker.length > 6  ? valueWorker[6] : "")
+						.benefit(valueWorker.length > 7 ? valueWorker[7] : "" )//
 						.build();
 				
 				System.out.println(worker);
