@@ -40,13 +40,13 @@ public class WorkerBuilderExampleWithLoop {
 				String[] valueWorker = singleLine.split("\\|");
 				
 				Workers worker = new Workers.Builder()//
-						.imie(valueWorker.length > 0 ? valueWorker[0] : "")//
-						.nazwisko(valueWorker.length > 1  ? valueWorker[1] : "")//
-						.miasto(valueWorker.length > 2  ? valueWorker[2] : "")//
-						.stanowisko(valueWorker.length > 3  ? valueWorker[3] : "")//
-						.zarobki(valueWorker.length > 4 ? Integer.valueOf(valueWorker[4]) : 0)//
-						.jezyk(valueWorker.length > 5 ? valueWorker[5] : "")//
-						.autorskie(valueWorker.length > 6  ? valueWorker[6] : "")
+						.name(valueWorker.length > 0 ? valueWorker[0] : "")//
+						.lastName(valueWorker.length > 1  ? valueWorker[1] : "")//
+						.city(valueWorker.length > 2  ? valueWorker[2] : "")//
+						.position(valueWorker.length > 3  ? valueWorker[3] : "")//
+						.salary(valueWorker.length > 4 ? Integer.valueOf(valueWorker[4]) : 0)//
+						.language(valueWorker.length > 5 ? valueWorker[5] : "")//
+						.tax(valueWorker.length > 6  ? valueWorker[6] : "")
 						.benefit(valueWorker.length > 7 ? valueWorker[7] : "" )//
 						.build();
 				

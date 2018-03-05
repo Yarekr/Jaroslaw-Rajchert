@@ -8,13 +8,13 @@ package com.java.pracownicy.zadanie.builder;
  */
 public class Workers {
 
-	private final String imie;
-	private final String nazwisko;
-	private final String miasto;
-	private final String stanowisko;
-	private final int zarobki;
-	private final String jezyk;
-	private final String autorskie;
+	private final String name;
+	private final String lastName;
+	private final String city;
+	private final String position;
+	private final int salary;
+	private final String language;
+	private final String tax;
 	private final String benefit;
 
 	/**
@@ -23,13 +23,13 @@ public class Workers {
 	 * @param builder
 	 */
 	private Workers(Builder builder) {
-		this.imie = builder.imie;
-		this.nazwisko = builder.nazwisko;
-		this.miasto = builder.miasto;
-		this.stanowisko = builder.stanowisko;
-		this.zarobki = builder.zarobki;
-		this.jezyk = builder.jezyk;
-		this.autorskie = builder.autorskie;
+		this.name = builder.name;
+		this.lastName = builder.lastName;
+		this.city = builder.city;
+		this.position = builder.position;
+		this.salary = builder.salary;
+		this.language = builder.language;
+		this.tax = builder.tax;
 		this.benefit = builder.benefit;
 
 	}
@@ -42,50 +42,50 @@ public class Workers {
 	 */
 	public static class Builder {
 
-		private String imie;
-		private String nazwisko;
-		private String miasto;
-		private String stanowisko;
-		private int zarobki;
-		private String jezyk;
-		private String autorskie;
+		private String name;
+		private String lastName;
+		private String city;
+		private String position;
+		private int salary;
+		private String language;
+		private String tax;
 		private String benefit;
 
 		// Setters / getters:
-		public Builder imie(final String imie) {
-			this.imie = imie;
+		public Builder name(final String name) {
+			this.name = name;
 			return this;
 		}
 
-		public Builder nazwisko(final String nazwisko) {
-			this.nazwisko = nazwisko;
+		public Builder lastName(final String lastName) {
+			this.lastName = lastName;
 			return this;
 		}
 
-		public Builder miasto(final String miasto) {
-			this.miasto = miasto;
+		public Builder city(final String city) {
+			this.city = city;
 			return this;
 		}
 
-		public Builder stanowisko(final String stanowisko) {
-			this.stanowisko = stanowisko;
-			return this;
-
-		}
-
-		public Builder zarobki(final int zarobki) {
-			this.zarobki = zarobki;
+		public Builder position(final String position) {
+			this.position = position;
 			return this;
 
 		}
 
-		public Builder jezyk(final String jezyk) {
-			this.jezyk = jezyk;
+		public Builder salary(final int salary) {
+			this.salary = salary;
+			return this;
+
+		}
+
+		public Builder language(final String language) {
+			this.language = language;
 			return this;
 		}
 
-		public Builder autorskie(final String autorskie) {
-			this.autorskie = autorskie;
+		public Builder tax (final String tax) {
+			this.tax = tax;
 			return this;
 
 		}
@@ -102,52 +102,52 @@ public class Workers {
 	}
 
 	/**
-	 * @return the imie
+	 * @return the name
 	 */
-	public String getImie() {
-		return imie;
+	public String getName() {
+		return name;
 	}
 
 	/**
-	 * @return the nazwisko
+	 * @return the lastName
 	 */
-	public String getNazwisko() {
-		return nazwisko;
+	public String getlastName() {
+		return lastName;
 	}
 
 	/**
-	 * @return the miasto
+	 * @return the city
 	 */
-	public String getMiasto() {
-		return miasto;
+	public String getCity() {
+		return city;
 	}
 
 	/**
-	 * @return the stanowisko
+	 * @return the position
 	 */
-	public String getStanowisko() {
-		return stanowisko;
+	public String getPosition() {
+		return position;
 	}
 
 	/**
-	 * @return the zarobki
+	 * @return the salary
 	 */
-	public int getZarobki() {
-		return zarobki;
+	public int getSalary() {
+		return salary;
 	}
 
 	/**
-	 * @return the jezyk
+	 * @return the language
 	 */
-	public String getJezyk() {
-		return jezyk;
+	public String getLanguage() {
+		return language;
 	}
 
 	/**
-	 * @return the autorskie
+	 * @return the tax
 	 */
-	public String getAutorskie() {
-		return autorskie;
+	public String getTax() {
+		return tax;
 	}
 
 	/**
@@ -164,19 +164,19 @@ public class Workers {
 	public String toString() {
 		StringBuffer buffer = new StringBuffer();
 		buffer.append(System.lineSeparator());
-		buffer.append("Imie: " + this.getImie());
+		buffer.append("Imie: " + this.getName());
 		buffer.append(System.lineSeparator());
-		buffer.append("Nazwisko: " + this.getNazwisko());
+		buffer.append("Nazwisko: " + this.getlastName());
 		buffer.append(System.lineSeparator());
-		buffer.append("Miejsce pracy: " + this.getMiasto());
+		buffer.append("Miejsce pracy: " + this.getCity());
 		buffer.append(System.lineSeparator());
-		buffer.append("Stanowisko: " + this.getStanowisko());
+		buffer.append("Stanowisko: " + this.getPosition());
 		buffer.append(System.lineSeparator());
-		buffer.append("Zarobki: " + this.getZarobki()+" PLN");
+		buffer.append("Zarobki: " + this.getSalary()+" PLN");
 		buffer.append(System.lineSeparator());
-		buffer.append("Jêzyk programowania: " + this.getJezyk());
+		buffer.append("Jêzyk programowania: " + this.getLanguage());
 		buffer.append(System.lineSeparator());
-		buffer.append("Koszt uzyskania przychodu: " + this.getAutorskie());
+		buffer.append("Koszt uzyskania przychodu: " + this.getTax());
 		buffer.append(System.lineSeparator());
 		buffer.append("Benefit: " + this.getBenefit());
 		buffer.append(System.lineSeparator());

@@ -36,7 +36,7 @@ public class OdczytZapisTesty {
 
 			}
 		} catch (FileNotFoundException e) {
-			System.out.println("dupa!! nie ma pliku! " + e.getMessage());
+			System.out.println("no file there! " + e.getMessage());
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
