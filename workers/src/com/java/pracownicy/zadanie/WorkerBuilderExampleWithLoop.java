@@ -1,6 +1,8 @@
 package com.java.pracownicy.zadanie;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -10,6 +12,9 @@ import java.util.List;
 
 import com.java.pracownicy.zadanie.builder.Workers;
 
+
+
+
 /**
  * @author jaros
  *
@@ -17,7 +22,9 @@ import com.java.pracownicy.zadanie.builder.Workers;
 public class WorkerBuilderExampleWithLoop {
 
 	private static final String NAZWA_PLIKU = "pracownicy.txt";
-
+	
+	 ;
+	
 	/**
 	 * @param args
 	 * @throws IOException
@@ -50,16 +57,31 @@ public class WorkerBuilderExampleWithLoop {
 						.benefit(valueWorker.length > 7 ? valueWorker[7] : "" )//
 						.build();
 				
+		
 				System.out.println(worker);
 				System.out.println("-------------------------------------------");
 
+				
+				try (BufferedWriter bw = new BufferedWriter(new FileWriter("WORKERS_SAVE.txt", true))){
+					bw.write(worker.toString());
+					}
+				
+				
 			}
+		
+		
+		
+		
+		
 		}
-
 		catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
 
+		
+		
 	}
-
+	
+		
+	
 }

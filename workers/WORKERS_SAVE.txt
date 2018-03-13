@@ -1,0 +1,81 @@
+
+Imie: MICHAL
+Nazwisko: ZAKROCKI
+Miejsce pracy: WROCLAW
+Stanowisko: DEVELOPER
+Zarobki: 7000 PLN
+Jêzyk programowania: JAVA
+Koszt uzyskania przychodu: 30%
+Benefit: 
+
+Imie: TOMASZ
+Nazwisko: FRACKI
+Miejsce pracy: WROCLAW
+Stanowisko: DEVELOPER
+Zarobki: 4000 PLN
+Jêzyk programowania: C++
+Koszt uzyskania przychodu: 30%
+Benefit: 
+
+Imie: PIOTR
+Nazwisko: MENCEL
+Miejsce pracy: OLAWA
+Stanowisko: TESTER
+Zarobki: 6000 PLN
+Jêzyk programowania: JAVA
+Koszt uzyskania przychodu: 
+Benefit: 
+
+Imie: MARIA
+Nazwisko: KWAS
+Miejsce pracy: WROCLAW
+Stanowisko: SPRZATACZKA
+Zarobki: 2000 PLN
+Jêzyk programowania: 
+Koszt uzyskania przychodu: 
+Benefit: MYDLO
+
+Imie: PAWEL
+Nazwisko: PAWLOWICZ
+Miejsce pracy: WROCLAW
+Stanowisko: KUCHARZ
+Zarobki: 4000 PLN
+Jêzyk programowania: 
+Koszt uzyskania przychodu: 
+Benefit: 
+
+Imie: OLGA
+Nazwisko: NOWAK
+Miejsce pracy: WROCLAW
+Stanowisko: SPRZATACZKA
+Zarobki: 2300 PLN
+Jêzyk programowania: 
+Koszt uzyskania przychodu: 
+Benefit: MYDLO
+
+Imie: CYPRIAN
+Nazwisko: MYSZ
+Miejsce pracy: WROCLAW
+Stanowisko: DEVELOPER
+Zarobki: 4800 PLN
+Jêzyk programowania: PHP
+Koszt uzyskania przychodu: 30%
+Benefit: 
+
+Imie: SWIETLANA
+Nazwisko: ALLILUJEWA
+Miejsce pracy: WROCLAW
+Stanowisko: HR MANAGER
+Zarobki: 2800 PLN
+Jêzyk programowania: 
+Koszt uzyskania przychodu: 
+Benefit: MULTISPORT
+
+Imie: JAROSLAW
+Nazwisko: RAJCHERT
+Miejsce pracy: WROCLAW
+Stanowisko: MANAGER
+Zarobki: 30000 PLN
+Jêzyk programowania: 
+Koszt uzyskania przychodu: 
+Benefit: SAMOCHOD
